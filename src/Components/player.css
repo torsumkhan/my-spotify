@@ -1,6 +1,5 @@
 .player-container {
     min-height: 20vh;
-    background-color: blue;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -9,7 +8,6 @@
 
 .time-control {
     width: 50%;
-    background-color: aqua;
     display: flex;
 }
 
@@ -25,7 +23,7 @@
 .play-control {
     display: flex;
     width: 35%;
-    background-color: brown;
+
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
