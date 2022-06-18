@@ -26,6 +26,9 @@
     background-color: rgb(44, 47, 51);
     overflow: scroll;
     padding: 1rem 0.8rem 1rem 2rem;
+    transform: translateX(-100%);
+    transition: all 0.5s ease;
+    opacity: 0;
 }
 
 .library h2 {
@@ -91,5 +94,10 @@
 
 .selected h3 {
     color: white;
+}
+
+.active-library{
+    transform: translateX(0%);
+    opacity: 1;
 }
 
