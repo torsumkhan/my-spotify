@@ -13,15 +13,15 @@ function App() {
   const [isPlaying, setIsPlaying] = useState(false);
 
   return (
-    <div className="App">
+    <div className="app">
       <Song currentSong={currentSong} />
       <Player
         currentSong={currentSong}
         isPlaying={isPlaying}
         setIsPlaying={setIsPlaying}
       />
-      <Footer />
-      <Library songs={songs} />
+
+      <Library songs={songs} setCurrentSong={setCurrentSong} />
     </div>
   );
 }
