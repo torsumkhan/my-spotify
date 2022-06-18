@@ -51,6 +51,24 @@ function chillHop() {
       id: uuidv4(),
       active: false,
     },
+    {
+      name: "Indian Summer Rally",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/03/c03fa64d8da9f1aa67db2a6b0c20cce262e9a976-1024x1024.jpg",
+      artist: "oddfish, cocabona",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=32863",
+      id: uuidv4(),
+      active: false,
+    },
+    {
+      name: "Indian Summer Rally",
+      cover:
+        "https://chillhop.com/wp-content/uploads/2022/03/c03fa64d8da9f1aa67db2a6b0c20cce262e9a976-1024x1024.jpg",
+      artist: "oddfish, cocabona",
+      audio: "https://mp3.chillhop.com/serve.php/?mp3=32863",
+      id: uuidv4(),
+      active: false,
+    },
   ];
 }
 
