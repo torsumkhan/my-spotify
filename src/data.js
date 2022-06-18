@@ -9,7 +9,7 @@ function chillHop() {
       artist: "Moods, Yasper",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=32859",
       id: uuidv4(),
-      active: true,
+      active: false,
     },
 
     {
@@ -19,7 +19,7 @@ function chillHop() {
       artist: "Strehlow",
       audio: "https://mp3.chillhop.com/serve.php/?mp3=35642",
       id: uuidv4(),
-      active: false,
+      active: true,
     },
 
     {
