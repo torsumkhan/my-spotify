@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMusic, faSpotify } from "@fortawesome/free-solid-svg-icons";
+import { faMusic } from "@fortawesome/free-solid-svg-icons";
+import { faSpotify } from "@fortawesome/free-brands-svg-icons";
 import "./nav.css";
 
 const Nav = ({ setLibraryOpen, LibraryOpen }) => {
   return (
     <nav>
-      <h1>mySpotify</h1>
+      <h1>
+        {" "}
+        <FontAwesomeIcon icon={faSpotify} /> mySpotify
+      </h1>
       <button
         onClick={() => {
           setLibraryOpen(!LibraryOpen);

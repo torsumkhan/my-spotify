@@ -25,7 +25,7 @@
     height: 100%;
     background-color: rgb(44, 47, 51);
     overflow: scroll;
-    padding: 1rem 0.8rem 1rem 2rem;
+    padding: 2rem 0.8rem 1rem 2rem;
     transform: translateX(-100%);
     transition: all 0.5s ease;
     opacity: 0;
@@ -99,5 +99,12 @@
 .active-library{
     transform: translateX(0%);
     opacity: 1;
+}
+
+.lib-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 400;
+    border-bottom: 2px solid #4e5d94;
 }
 

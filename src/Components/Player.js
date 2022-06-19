@@ -2,10 +2,14 @@ import React, { useEffect } from "react";
 import { playAudio } from "../util";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faCirclePlay,
+  faCirclePause,
   faPlay,
   faAngleLeft,
   faAngleRight,
   faPause,
+  faCircleChevronLeft,
+  faCircleChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
 import "./player.css";
 
@@ -94,21 +98,21 @@ const Player = ({
         <FontAwesomeIcon
           className="skip-back"
           size="2x"
-          icon={faAngleLeft}
+          icon={faCircleChevronLeft}
           onClick={() => skipTrackHandler("skip-back")}
         />
         {!isPlaying ? (
           <FontAwesomeIcon
             className="play"
-            size="2x"
-            icon={faPlay}
+            size="3x"
+            icon={faCirclePlay}
             onClick={playHandler}
           />
         ) : (
           <FontAwesomeIcon
             className="play"
-            size="2x"
-            icon={faPause}
+            size="3x"
+            icon={faCirclePause}
             onClick={playHandler}
           />
         )}
@@ -116,7 +120,7 @@ const Player = ({
         <FontAwesomeIcon
           className="skip-forward"
           size="2x"
-          icon={faAngleRight}
+          icon={faCircleChevronRight}
           onClick={() => skipTrackHandler("skip-forward")}
         />
       </div>

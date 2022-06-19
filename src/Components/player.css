@@ -16,6 +16,13 @@
 .song-input {
     width: 100%;
     padding: 1rem 0rem;
+    cursor: pointer;
+
+
+}
+
+.song-input::-ms-range-progess{
+    background-color: red;
 }
 
 .time-control p {
@@ -33,4 +40,16 @@
 
 .play-control svg {
     cursor: pointer;
+}
+
+input[type="range"] {
+    accent-color: #5865F2;
+}
+
+.play{
+    color: #5865F2;
+}
+
+.skip-back, .skip-forward {
+    color: rgb(44, 47, 51);
 }
