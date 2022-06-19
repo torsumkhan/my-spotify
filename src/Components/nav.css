@@ -15,6 +15,10 @@ button {
     transition: all 0.3s ease;
     color: white;
     border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px
 
 }
 
@@ -24,4 +28,13 @@ h1{
 
 button:hover{
     background-color: #4e5d94;
+}
+
+@media screen and (max-width: 768px){
+    nav button {
+        z-index: 10;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
 }
