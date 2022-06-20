@@ -9,7 +9,7 @@ const Nav = ({ setLibraryOpen, LibraryOpen }) => {
     <nav>
       <h1>
         {" "}
-        <FontAwesomeIcon icon={faSpotify} /> mySpotify
+        <FontAwesomeIcon icon={faSpotify} size="2x" /> mySpotify
       </h1>
       <button
         onClick={() => {

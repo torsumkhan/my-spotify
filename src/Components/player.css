@@ -6,6 +6,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    color: white;
+
 }
 
 .time-control {
@@ -47,11 +49,14 @@ input[type="range"] {
 }
 
 .play{
-    color: #5865F2;
+    color: white;
+
+
+
 }
 
 .skip-back, .skip-forward {
-    color: rgb(44, 47, 51);
+    color: #97A9B4;
 }
 
 @media screen and (max-width: 786px) {
